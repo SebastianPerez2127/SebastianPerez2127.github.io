@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Web Page</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+</head>
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="home">
+        <h1>Hello, World!</h1>
+        <p>This is my first web page using VSCode</p>
+        <p>These are some of the things I enjoy.</p>
+        <ul>
+            <li>Gaming and playing COD</li>
+            <img src="https://imageio.forbes.com/specials-images/imageserve/651f14c08e6d76a67517221d/Rebirth-Island/960x0.jpg?format=jpg&width=960" alt="Placeholder Image" width="200" height="100">
+            <li>Fishing</li>
+            <img src="https://hellscanyon.tours/wp-content/uploads/2023/01/RiverAdventuresInc-214207-Pieces-Fishing-Equipment-blogbanner1-1080x675.jpg" alt="Placeholder Image" width="200" height="100">
+            <li>Sleeping</li>
+            <img src="https://media.post.rvohealth.io/wp-content/uploads/sites/3/2020/02/325353_2200-732x549.jpg" alt="Placeholder Image" width="200" height="100">
+        </ul>
+    </section>
+
+    <section id="services">
+        <h2>Services</h2>
+        <p>Online assistence with computers.</p>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>I am a 9th grade highschool student.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>pereseb2127@s.lfcisd.net</p>
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Age</th>
+            </tr>
+            <tr>
+                <td>John Doe</td>
+                <td>johndoe@example.com</td>
+                <td>28</td>
+            </tr>
+            <!-- Add more rows here -->
+            <tr>
+                <td>Bill Gates</td>
+                <td>billgates12@yahoo.com</td>
+                <td>22</td>
+            </tr>
+            <tr>
+                <td>Sebastian Perez</td>
+                <td>pereseb2127@s.lfcisd.net</td>
+                <td>15</td>
+            </tr>
+            <tr>
+                <td>Conner Cortez</td>
+                <td>conener2@email.com</td>
+                <td>18</td>
+            </tr>
+        </table>
+
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name"><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br><br>
+        </form>
+    </section>
+
+    <h1>Simple Calculator</h1>
+    <label for="num1">First Number:</label>
+    <input type="number" id="num1"><br><br>
+    <label for="num2">Second Number:</label>
+    <input type="number" id="num2"><br><br>
+    <button onclick="add()">Add</button>
+    <button onclick="subtract()">Subtract</button>
+    <button onclick="multiply()">Multiply</button>
+    <button onclick="divide()">Divide</button>
+    <p id="result"></p>
+
+    <script src="calculator.js"></script>
+</body>
+</html>
+<button onclick="changeBackgroundColor()">Change Background Color</button>
+
+<button onclick="toggleText()">Toggle Text</button>
+<p id="toggleParagraph">This is a toggleable paragraph. I like coding :).</p>
+<div id="tabs">
+    <ul>
+    <li><a href="#tabs-1">Tab 1</a></li>
+    <li><a href="#tabs-2">Tab 2</a></li>
+    <li><a href="#tabs-3">Tab 3</a></li>
+    </ul>
+    <div id="tabs-1">
+    <p>Content for Tab 1.</p>
+    <p> Sebastian Perez likes coding.</p>
+    </div>
+    <div id="tabs-2">
+    <p>Content for Tab 2.</p>
+    <p> Mr. Cole is great. </p>
+    </div>
+    <div id="tabs-3">
+    <p>Content for Tab 3.</p>
+    <p>Coding is fun.</p>
+    </div>
+</div>
